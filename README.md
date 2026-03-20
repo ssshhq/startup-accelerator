@@ -15,19 +15,22 @@
 **核心功能**：创业者录入项目信息 → AI 自动分析 → 生成专业评估报告（政策匹配、风险评估、独角兽潜力分析、对标企业推荐）
 
 ---
-
-##📸 效果展示
+## 📸 效果展示
 
 NocoBase 项目录入表单
+![nocobase-project](https://github.com/user-attachments/assets/c9e7d14c-3064-4dd9-bc23-b0eaa3991a6a)
 
 
 Dify Workflow 工作流
+![dify-workflow](https://github.com/user-attachments/assets/321cff39-d27e-4376-b2ee-8b5561726023)
 
 
 脚本运行效果
+![script-running](https://github.com/user-attachments/assets/81dbbbe3-3991-43d7-8d75-42d0098c3794)
 
 
 AI 评估报告
+![nocobase-report-list](https://github.com/user-attachments/assets/1abc08ac-176b-4be6-b72d-faaeaa8921aa)
 
 
 ---
@@ -92,6 +95,7 @@ AI 评估报告
 ---
 
 ## 📦 项目结构
+
 startup-accelerator/
 ├── README.md # 项目说明文档
 ├── LICENSE # 开源协议
@@ -111,10 +115,22 @@ startup-accelerator/
 
 ---
 
-🔑 核心特性
-零代码数据管理：基于 NocoBase 搭建，无需编写前后端代码
-AI 智能评估：基于 Dify Workflow 编排多个 LLM 节点，多维度深度分析
-自动化流程：Python 脚本自动检测新项目、调用 AI、回写报告，全程无需人工干预
-数据流贯通：NocoBase ↔ Python ↔ Dify 三者数据联通，不断裂、不孤立
-流式响应：采用 streaming 模式调用 Dify API，避免大模型长时间处理导致超时
-可扩展架构：预留 Spider-Flow 爬虫、Superset 报表、MyBricks 小程序接口
+## 🔑 核心特性
+
+-零代码数据管理：基于 NocoBase 搭建，无需编写前后端代码
+-AI 智能评估：基于 Dify Workflow 编排多个 LLM 节点，多维度深度分析
+-自动化流程：Python 脚本自动检测新项目、调用 AI、回写报告，全程无需人工干预
+-数据流贯通：NocoBase ↔ Python ↔ Dify 三者数据联通，不断裂、不孤立
+-流式响应：采用 streaming 模式调用 Dify API，避免大模型长时间处理导致超时
+
+
+## 📄 许可证
+
+本项目基于 [MIT License](LICENSE) 开源。
+
+
+## 📞 支持与反馈
+
+如有问题或建议，可在GitHub Discussions中讨论
+
+---
