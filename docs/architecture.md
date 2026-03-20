@@ -49,3 +49,5 @@
 | unicorn_score | 数字 | 独角兽潜力分 |
 | benchmark_companies | 多行文本 | 对标企业 |
 | generated_at | 日期 | 生成时间 |
+
+### industry_data（行业数据表）
