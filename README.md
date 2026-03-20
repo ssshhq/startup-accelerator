@@ -182,13 +182,6 @@ export DIFY_API_KEY="your-dify-api-key"
 python nocobase_dify_bridge.py
 ```
 
-Windows PowerShell：
-
-```powershell
-$env:NOCOBASE_TOKEN="your-nocobase-token"
-$env:DIFY_API_KEY="your-dify-api-key"
-python scripts\nocobase_dify_bridge.py
-```
 
 ---
 
