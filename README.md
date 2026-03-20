@@ -55,7 +55,7 @@
 |:-----|:-----|:-----|
 | [NocoBase](https://www.nocobase.com/) | Latest | 零代码数据后端，数据表管理、可视化表单搭建、REST API |
 | [Dify](https://dify.ai/) | Cloud | AI 工作流引擎，LLM 编排、Workflow 设计、API 服务 |
-| Python | 3.8+ | 集成桥接脚本，打通 NocoBase 与 Dify 数据流 |
+| Python | 3.11+ | 集成桥接脚本，打通 NocoBase 与 Dify 数据流 |
 | Docker | Latest | NocoBase 容器化部署 |
 | 智谱 AI (GLM-4) | - | 大语言模型，提供 AI 分析能力 |
 
@@ -129,7 +129,6 @@ startup-accelerator/
 | ⚡ **自动化流程** | Python 脚本自动检测新项目、调用 AI、回写报告，全程无需人工干预 |
 | 🔗 **数据流贯通** | NocoBase ↔ Python ↔ Dify 三者数据联通，不断裂、不孤立 |
 | 🌊 **流式响应** | 采用 streaming 模式调用 Dify API，避免大模型长时间处理导致超时 |
-| 🔌 **可扩展架构** | 预留 Spider-Flow 爬虫、Superset 报表、MyBricks 小程序扩展接口 |
 
 ---
 
@@ -160,7 +159,7 @@ docker run -d \
   nocobase/nocobase:latest
 ```
 
-访问 `http://localhost:13000`，默认账号 `admin@nocobase.com`，密码 `admin123`
+访问 `http://localhost:13000`
 
 ### 2️⃣ 配置 Dify Workflow
 
@@ -205,9 +204,7 @@ python scripts\nocobase_dify_bridge.py
 
 ## ⚠️ 注意事项
 
-1. **安全提醒**：请勿将真实的 API Key 和 Token 提交到 Git 仓库，请使用环境变量管理
-2. **免费额度**：Dify Cloud 免费版有消息次数限制，智谱 AI glm-4-flash 模型目前免费
-3. **报告声明**：AI 生成的评估报告仅供参考，不作任何法律或投资依据
+**报告声明**：AI 生成的评估报告仅供参考，不作任何法律或投资依据
 
 ---
 
