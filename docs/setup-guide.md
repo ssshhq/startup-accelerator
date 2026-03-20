@@ -2,7 +2,7 @@
 
 ## 环境要求
 - Docker
-- Python 3.8+
+- Python 3.11+
 - Dify Cloud 账号
 
 ## 部署NocoBase
